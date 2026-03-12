@@ -1,0 +1,14 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        int length,breath,area;
+        Scanner sc=new Scanner(System.in);
+        length=sc.nextInt();
+        breath=sc.nextInt();
+        area=length*breath;
+        System.out.println(area);
+    }
+}
